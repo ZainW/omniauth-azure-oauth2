@@ -10,9 +10,6 @@ module OmniAuth
 
       option :tenant_provider, nil
 
-      # AD resource identifier
-      option :resource, '00000002-0000-0000-c000-000000000000'
-
       # tenant_provider must return client_id, client_secret and optionally tenant_id and base_azure_url
       args [:tenant_provider]
 
